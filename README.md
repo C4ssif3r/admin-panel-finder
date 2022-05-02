@@ -1,6 +1,6 @@
 # admin-panel-finder tool 🔥🔫
 
-A powerful script for find login [admin] pages 💯
+A powerful script for find login [admin] pages 💯 have +500 link admin page !
 
 # Requirements:
 
