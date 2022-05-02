@@ -1,9 +1,9 @@
 # admin-panel-finder tool
 
 
-# a powerful script for find login [admin] pages !
+ a powerful script for find login [admin] pages !
 
-# launch on termux or linux or win10:
+launch on termux or linux or win10:
 
 Step1 :
 
