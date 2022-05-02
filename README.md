@@ -32,6 +32,7 @@ how to install pip3 on your device?:
 `apt install -y pip`
 
 Or
+یا
 
 `apt install -y pip3`
 
@@ -44,6 +45,7 @@ fg
 `pip install colored --upgrade`
 
 Or
+یا
 
 `pip3 install colored --upgrade`
 
