@@ -2,6 +2,7 @@
 
 English: A powerful script for find login [admin] pages 💯 have +500 link admin page !
 
+A Python Script for find Web Site Admin Login Page.
 
 فارسی:
 یک ابزار قدرتمند برای پیدا کردن پیج لاگین ادمین ! 💯 دارای 500+ لینک پیج ادمین 
