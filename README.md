@@ -25,6 +25,13 @@ Or
 
 `apt install -y pip3`
 
+If you get an error[fg not definded], enter this command:
+
+`pip install colored --upgrade`
+
+Or
+
+`pip3 install colored --upgrade`
 
 🪲 Tested on termux or linux or win10:
 
