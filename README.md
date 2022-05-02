@@ -6,6 +6,10 @@ English: A powerful script for find login [admin] pages 💯 have +500 link admi
 فارسی:
 یک ابزار قدرتمند برای پیدا کردن پیج لاگین ادمین ! 💯 دارای 500+ لینک پیج ادمین 
 
+> ![Screenshot_2022-05-02-21-19-46-464_com termux](https://user-images.githubusercontent.com/79422726/166290167-ef6cfccf-1734-4a02-91ac-51f7212f79bc.jpg)
+
+
+
 # الزامات
 # Requirements:
 
