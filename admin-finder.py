@@ -70,7 +70,7 @@ if 'http://' or 'https://' in target_url:
 
 
 if 'http://' or 'https://' not in target_url:
-    target_url = 'https://'+target_url
+    target_url = 'http://'+target_url
 
 
 test = req.get(target_url)
