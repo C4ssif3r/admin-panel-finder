@@ -1,15 +1,33 @@
-# admin-panel-finder tool
+# admin-panel-finder tool 🔥🔫
+
+A powerful script for find login [admin] pages 💯
+
+# Requirements:
 
 
- a powerful script for find login [admin] pages !
+Python3
+pip3
 
-launch on termux or linux or win10:
 
-Launch :
+How to install python on your device?:
+`apt install -y python`
+Or
+`apt install -y python3`
+
+how to install pip3 on your device?:
+`apt install -y pip`
+Or
+`apt install -y pip3`
+
+
+🪲 Tested on termux or linux or win10:
+
+📌 How to Launch ?
 
 `git clone https://github.com/C4ssif3r/admin-panel-finder`
 
 `cd admin-panel-finder`
 
 `python admin-finder.py`
+
 
