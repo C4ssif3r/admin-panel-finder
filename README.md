@@ -10,13 +10,19 @@ pip3
 
 
 How to install python on your device?:
+
 `apt install -y python`
+
 Or
+
 `apt install -y python3`
 
 how to install pip3 on your device?:
+
 `apt install -y pip`
+
 Or
+
 `apt install -y pip3`
 
 
