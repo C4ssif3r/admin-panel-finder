@@ -1,4 +1,4 @@
-# admin-panel-finder tool 🔥🔫
+# admin panel finder python tool 🔥🔫
 
 English: A powerful script for find login [admin] pages 💯 have +500 link admin page !
 
