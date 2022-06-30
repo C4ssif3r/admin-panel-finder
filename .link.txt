@@ -1,5 +1,9 @@
 admin1.php
-Logij
+Login.htm
+Cpanel
+C-panel
+Logi
+Log-in
 admin1.html
 admin2.php
 admin2.html
