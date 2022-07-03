@@ -210,7 +210,7 @@ def manual_list():
                 print(f'['+Fore.RED+'NOT'+Fore.WHITE+'] cant found page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('red'), attr('reset')))
     
             if get_req.status_code > charnono:
-    ,            print(f'['+Fore.YELLOW+'Server-ERROR'+Fore.WHITE+'] SERVER ERROR - URL > %s%s {} %s'.format(url) % (fg('white'), bg('yellow'), attr('reset')))
+                print(f'['+Fore.YELLOW+'Server-ERROR'+Fore.WHITE+'] SERVER ERROR - URL > %s%s {} %s'.format(url) % (fg('white'), bg('yellow'), attr('reset')))
     
         except KeyboardInterrupt:
             #sisi = input(Fore.YELLOW+'[#]'+Fore.WHITE+' are you like see finded panels ? [yes] [no]').lower()
