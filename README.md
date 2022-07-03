@@ -28,11 +28,15 @@ A Python Script for find Web Site Admin Login Page.
 
 > ![Screenshot_2022-05-02-20-26-37-493_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/166290641-e741c57b-1950-4ad1-9949-7aa1b79dc71f.jpg)
    
-  the manual list search admin panels with [patch(dirs)]
-  Example search with manual list:
-  target > google.com
-  example[1] > google.com/admin
-  example[2] > google.com/cpanel
+  + the manual list search admin panels with [patch(dirs)]
+  + Example search with manual list:
+  + target > google.com
+  + example[1] > google.com/admin
+  + example[2] > google.com/cpanel
+
+
+
+
 # الزامات
 # Requirements:
 
