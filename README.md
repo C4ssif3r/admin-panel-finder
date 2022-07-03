@@ -8,34 +8,31 @@ A Python Script for find Web Site Admin Login Page.
 سابدامین800 +
  یک ابزار قدرتمند برای پیدا کردن پیج لاگین ادمین ! 💯 دارای 7000+ لینک پیج ادمین 
 
-# methods:
-
-
-method 1 :
-        1: the subdomains searcher for find subdamins from {target_url}
-        2: example test with sub_manual:
-        3: target > google.com
-        4: example[1] > admin.google.com
-        5: example[2] > cpanel.google.com
-# -------------------
-  
-method 2 :
-        
-        1: the manual list search admin panels with [patch(dirs)]
-        2: example search with manual list:
-        3: target > google.com
-        4: example[1] > google.com/admin
-        5: example[2] > google.com/cpanel
 # start menu : 
 > ![Screenshot_2022-07-03-22-25-01-337_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/177051729-03019592-a050-479e-9c83-e3641cc205f3.jpg)
 
-# method 1:
+
+# method 1
+
 > ![Screenshot_2022-07-03-22-26-04-575_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/177051721-2157ea88-a426-4eca-a8ab-bdb906a1e93d.jpg)
 
-# method 2:
+  + the subdomains searcher for find subdamins from {target_url}
+  + example test with sub_manual:
+  + target > google.com
+  + example[1] > admin.google.com
+  + example[2] > cpanel.google.com
+# -------------------
+
+
+# method 2 :
+
 > ![Screenshot_2022-05-02-20-26-37-493_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/166290641-e741c57b-1950-4ad1-9949-7aa1b79dc71f.jpg)
-
-
+   
+  the manual list search admin panels with [patch(dirs)]
+  Example search with manual list:
+  target > google.com
+  example[1] > google.com/admin
+  example[2] > google.com/cpanel
 # الزامات
 # Requirements:
 
