@@ -217,11 +217,11 @@ def manual_list():
             #if sisi == 'yes':
             #    for i in ok:
             #        print (i)
-            else:
             
-                print('\nBye !')
-                time.sleep(3)
-                sys.exit()
+            
+            print('\nBye !')
+            time.sleep(3)
+            sys.exit()
 
 if select_method == '1':
     sub_manual()
