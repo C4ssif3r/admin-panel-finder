@@ -71,14 +71,12 @@ if len(target_url) < 5:
 else:
     pass
 
-if 'http://' in target_url or 'https://' in target_url:
+if 'http://' or 'https://' in target_url:
     pass
 
 
-if 'http://' not in target_url or 'https://' not in target_url:
+if 'http://' or 'https://' not in target_url:
     target_url = 'http://'+target_url
-if 'www' in target_url:
-    target_url = target_url.replace('www', '')
 
 test = req.get(target_url)
 
@@ -152,10 +150,7 @@ def sub_manual():
         try:
             get_req = req.get(url, timeout=5, headers=heders1)
             print(f'['+Fore.GREEN+'OK'+Fore.WHITE+'] founded a page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('green'), attr('reset')))
-            ok = []
-            ok.append(url)
-            ok.append('\n')
-            print (ok)
+        
         except Exception:
             print(f'['+Fore.RED+'NOT'+Fore.WHITE+'] cant found page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('red'), attr('reset')))
     
@@ -205,8 +200,7 @@ def manual_list():
         try:
             if get_req.status_code < sisad:
                 print(f'['+Fore.GREEN+'OK'+Fore.WHITE+'] founded a page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('green'), attr('reset')))
-                ok = []
-                ok.append(link)
+            
             if get_req.status_code > charsad:
                 print(f'['+Fore.RED+'NOT'+Fore.WHITE+'] cant found page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('red'), attr('reset')))
     
