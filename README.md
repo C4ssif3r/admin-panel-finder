@@ -10,20 +10,20 @@ A Python Script for find Web Site Admin Login Page.
 
 # methods:
 
-    ^method 1 :^
-        the subdomains searcher for find subdamins from {target_url}
-        example test with sub_manual:
-        target > google.com
-        example[1] > admin.google.com
-        example[2] > cpanel.google.com
+method 1 :
+        • the subdomains searcher for find subdamins from {target_url}
+        • example test with sub_manual:
+        • target > google.com
+        • example[1] > admin.google.com
+        • example[2] > cpanel.google.com
     
-    method 2 :
+method 2 :
         
-        the manual list search admin panels with [patch(dirs)]
-        example search with manual list:
-        target > google.com
-        example[1] > google.com/admin
-        example[2] > google.com/cpanel
+        • the manual list search admin panels with [patch(dirs)]
+        • example search with manual list:
+        • target > google.com
+        • example[1] > google.com/admin
+        • example[2] > google.com/cpanel
 # start menu : 
 > ![Screenshot_2022-07-03-22-25-01-337_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/177051729-03019592-a050-479e-9c83-e3641cc205f3.jpg)
 
