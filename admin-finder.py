@@ -57,7 +57,7 @@ def banner():
 
 banner()
 
-print(Fore.WHITE+'['+Fore.RED+'#'+Fore.WHITE+'] Enter target url ex: www.google.com or google.com')
+print(Fore.WHITE+'['+Fore.RED+'#'+Fore.WHITE+'] Enter target url example: google.com (without http or https or www !)')
 
 target_url = input('TARGET [URL] '+Fore.RED+'>_'+Fore.GREEN+' ')
 
@@ -71,13 +71,14 @@ if len(target_url) < 5:
 else:
     pass
 
-if 'http://' or 'https://' in target_url:
+if 'http://' in target_url or 'https://' in target_url:
     pass
 
 
-if 'http://' or 'https://' not in target_url:
+if 'http://' not in target_url or 'https://' not in target_url:
     target_url = 'http://'+target_url
-
+if 'www' in target_url:
+    target_url = target_url.replace('www', '')
 
 test = req.get(target_url)
 
