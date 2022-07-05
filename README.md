@@ -8,11 +8,11 @@ A Python Script for find Web Site Admin Login Page.
 سابدامین800 +
  یک ابزار قدرتمند برای پیدا کردن پیج لاگین ادمین ! 💯 دارای 7000+ لینک پیج ادمین 
 
-# start menu : 
+###  start menu : 
 > ![Screenshot_2022-07-03-22-25-01-337_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/177051729-03019592-a050-479e-9c83-e3641cc205f3.jpg)
 
 
-# method 1
+###  method 1
 
 > ![Screenshot_2022-07-03-22-26-04-575_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/177051721-2157ea88-a426-4eca-a8ab-bdb906a1e93d.jpg)
 
@@ -23,8 +23,7 @@ A Python Script for find Web Site Admin Login Page.
   + example[2] > cpanel.google.com
 # -------------------
 
-
-# method 2 :
+###  method 2 :
 
 > ![Screenshot_2022-05-02-20-26-37-493_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/166290641-e741c57b-1950-4ad1-9949-7aa1b79dc71f.jpg)
    
@@ -37,8 +36,8 @@ A Python Script for find Web Site Admin Login Page.
 
 
 
-# الزامات
-# Requirements:
+
+# > Requirements:
 
 
 Python3
@@ -91,7 +90,7 @@ Or
 
 `git clone https://github.com/C4ssif3r/admin-panel-finder`
 
-`cd admin-panel-finder`
+```cd admin-panel-finder```
 
 `python admin-finder.py`
 
