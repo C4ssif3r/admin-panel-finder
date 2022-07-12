@@ -1,4 +1,4 @@
-# admin panel finder python tool 🔥🔫
+##### admin panel finder python tool 🔥🔫
 
 English: A powerful script for find login [admin] pages 💯 have +7000 link admin page ! And have 800+ subdamins !
 
@@ -84,7 +84,7 @@ Or
 🪲 تست شده بر روی لینوکس و ترموکس و ویندوز10
 
 
-📌 How to Launch ?
+📌 ##### How to Launch ?
 
 نحوه راه اندازی 📌 :
 
