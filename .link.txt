@@ -23,6 +23,8 @@ websvn/
 admin/
 admin/account.php
 admin/account.html
+admin/login.aspx
+admin/login.jsp
 admin/index.php
 admin/index.html
 admin/login.php
@@ -33,6 +35,7 @@ admin/controlpanel.php
 admin.php
 admin.html
 admin/cp.php
+
 admin/cp.html
 cp.php
 cp.html
