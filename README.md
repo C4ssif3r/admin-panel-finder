@@ -1,3 +1,6 @@
+[![](https://img.shields.io/static/v1?label=Owner&message=Mji~DarkPwn&color=black)](http://127.0.0.1:9050) ![GithubAllStars](https://img.shields.io/github/stars/C4ssif3r/admin-panel-finder?style=social)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ##### admin panel finder python tool 🔥🔫
 
 English: A powerful script for find login [admin] pages 💯 have +7000 link admin page ! And have 800+ subdamins !
