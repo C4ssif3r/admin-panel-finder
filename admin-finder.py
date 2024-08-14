@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -------------------------------------------------
-__AUTHOR__ = 'MOJTABA OR C.S.R OR Mr EXPLOiT'
-__TELEGRAM_ID__ = '@creator_typeri'
+__AUTHOR__ = 'MOJTABA '
+__TELEGRAM_ID__ = '@aboutMji'
 __INSTAGRAM_ID__ = '@MJi_Devil'
 __GITHUB__ = 'https://github.com/C4ssif3r'
-__COMMENT__ = '''NULL'''
+__COMMENT__ = '''plz get me Star ⭐ :)'''
 
 # -------------------------------------------------
 # import mudules                                  |
@@ -12,6 +12,7 @@ __COMMENT__ = '''NULL'''
 import os
 import time
 import sys
+import concurrent.futures
 # ------------------------------------------------
 try:
     import requests as req
@@ -129,39 +130,30 @@ def sub_manual():
 
     links = open('.sub.txt', 'r').read().split()
 
-    for link in links:
+    def heders():
+        hd = agent.random()
+        return hd
 
-        def heders():
-            hd = agent.random()
-            return hd
-        heders1 = {
-    'User-Agent': heders()
+    heders1 = {
+        'User-Agent': heders()
     }
+
+    def check_link(link):
         try:
             url = ('http://'+link+'.'+target_url)
-        
-        except KeyboardInterrupt:
-            print('\nBye !')
-            time.sleep(3)
-            sys.exit()
-
-
-
-        try:
             get_req = req.get(url, timeout=5, headers=heders1)
             print(f'['+Fore.GREEN+'OK'+Fore.WHITE+'] founded a page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('green'), attr('reset')))
         
         except Exception:
             print(f'['+Fore.RED+'NOT'+Fore.WHITE+'] cant found page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('red'), attr('reset')))
     
-            #if get_req.status_code > charnono:
-                #print(f'['+Fore.YELLOW+'Server-ERROR'+Fore.WHITE+'] SERVER ERROR - URL > %s%s {} %s'.format(url) % (fg('white'), bg('yellow'), attr('reset')))
-    
         except KeyboardInterrupt:
             print('\nBye !')
             time.sleep(3)
             sys.exit()
-        
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+        executor.map(check_link, links)
 
 def manual_list():
     '''
@@ -175,29 +167,22 @@ def manual_list():
 
     links = open('.link.txt', 'r').read().split()
 
-    for link in links:
-        def heders():
-            hd = agent.random()
-            return hd
-        heders1 = {
-    'User-Agent': heders()
+    def heders():
+        hd = agent.random()
+        return hd
+
+    heders1 = {
+        'User-Agent': heders()
     }
 
+    def check_link(link):
         try:
             url = ('http://'+target_url+'/'+link)
             get_req = req.get(url, timeout=5, headers=heders1)
-        except KeyboardInterrupt:
-            print('\nBye !')
-            time.sleep(3)
-            sys.exit()
-    #get_req.status_code = int(get_req.status_code)
+            sisad = 399
+            charsad = 400
+            charnono = 499
 
-        sisad = 399
-        charsad = 400
-        charnono = 499
-
-
-        try:
             if get_req.status_code < sisad:
                 print(f'['+Fore.GREEN+'OK'+Fore.WHITE+'] founded a page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('green'), attr('reset')))
             
@@ -208,15 +193,12 @@ def manual_list():
                 print(f'['+Fore.YELLOW+'Server-ERROR'+Fore.WHITE+'] SERVER ERROR - URL > %s%s {} %s'.format(url) % (fg('white'), bg('yellow'), attr('reset')))
     
         except KeyboardInterrupt:
-            #sisi = input(Fore.YELLOW+'[#]'+Fore.WHITE+' are you like see finded panels ? [yes] [no]').lower()
-            #if sisi == 'yes':
-            #    for i in ok:
-            #        print (i)
-            
-            
             print('\nBye !')
             time.sleep(3)
             sys.exit()
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+        executor.map(check_link, links)
 
 if select_method == '1':
     sub_manual()
