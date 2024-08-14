@@ -1,3 +1,4 @@
+### 2024 update : add 50 threads for find faster ;) report bugs: t.me/AboutMji tel
 [![](https://img.shields.io/static/v1?label=Owner&message=Mji~DarkPwn&color=black)](http://127.0.0.1:9050) ![GithubAllStars](https://img.shields.io/github/stars/C4ssif3r/admin-panel-finder?style=social) ![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ##### admin panel finder python tool 🔥🔫
