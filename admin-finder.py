@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -------------------------------------------------
-__AUTHOR__ = 'MOJTABA '
-__TELEGRAM_ID__ = '@aboutMji'
+__AUTHOR__ = 'Moj'
+__TELEGRAM_ID__ = '@iranLwner'
 __INSTAGRAM_ID__ = '@MJi_Devil'
 __GITHUB__ = 'https://github.com/C4ssif3r'
 __COMMENT__ = '''plz get me Star ⭐ :)'''
