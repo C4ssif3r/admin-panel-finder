@@ -65,13 +65,6 @@ target_url = input('TARGET [URL] '+Fore.RED+'>_'+Fore.GREEN+' ')
 
 print(Fore.RESET+'')
 
-if len(target_url) < 5:
-    print('['+Fore.RED+'!'+Fore.WHITE+']'+Fore.YELLOW+' target in very short ! check and try again')
-    time.sleep(3.0)
-    sys.exit()
-else:
-    pass
-
 if 'http://' or 'https://' in target_url:
     pass
 
@@ -89,7 +82,7 @@ if test.status_code == 200:
 else:
     print(Fore.RED+'cant connect to target '+Fore.WHITE+'> '+Fore.YELLOW+''+target_url)
     sys.exit()
-target_url = target_url.replace('http://', '')
+target_url = target_url.replace('http://', '').replace('https://','')
 print (f'''
 methods:
 
@@ -141,7 +134,7 @@ def sub_manual():
     def check_link(link):
         try:
             url = ('http://'+link+'.'+target_url)
-            get_req = req.get(url, timeout=5, headers=heders1)
+            get_req = req.get(url, timeout=20, headers=heders1)
             print(f'['+Fore.GREEN+'OK'+Fore.WHITE+'] founded a page - URL > %s%s {} %s'.format(url) % (fg('black'), bg('green'), attr('reset')))
         
         except Exception:
@@ -178,7 +171,7 @@ def manual_list():
     def check_link(link):
         try:
             url = ('http://'+target_url+'/'+link)
-            get_req = req.get(url, timeout=5, headers=heders1)
+            get_req = req.get(url, timeout=20, headers=heders1)
             sisad = 399
             charsad = 400
             charnono = 499
